@@ -1,0 +1,65 @@
+
+.text-box > :first-child {
+ color: pink;
+}
+ #greycol{
+     color: gray;
+ }
+ .text-box > div > p {
+    color: red;
+ }
+ div :nth-child(7){
+    color: green;
+ }
+ .yellow{
+     color: yellow;
+ }
+ .monday{
+    color: aqua;
+ }
+ .monday{
+ background-color: rgb(229, 153, 39);
+ }
+ .monday:hover{
+   color: rgb(18, 147, 154);
+ }
+ .monday:nth-child(3){
+  background-color: blueviolet;
+ }
+ .tuesday{
+    color: azure;
+    background-color: blueviolet;
+ }
+ .tuesday:focus {
+   color: black;
+ }
+ .tuesday:nth-child(-n+2) {
+  color: rgb(28, 86, 15);
+ }
+ .wednesday{
+    color: brown;
+    background-color: rgb(8, 228, 45);
+ }
+ .wednesday:not(.first) {
+   color: rgb(62, 140, 222);
+ }
+ .wednesday:only-child {
+  background-color: rgb(204, 190, 30);
+ }
+ .thursday{
+   color: rgb(32, 6, 6);
+    background-color: rgb(220, 60, 32);
+ }
+ .thursday > :nth-child(odd) {
+   background-color: rgb(19, 222, 67);
+ }
+ .friday{
+   color: rgb(34, 11, 206);
+   background-color: rgb(167, 26, 113);
+
+ }
+ .friday > :nth-child(even) {
+   color: yellowgreen;
+ }
+
+ 
